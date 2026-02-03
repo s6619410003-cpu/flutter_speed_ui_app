@@ -35,13 +35,10 @@ class _C03PageUiState extends State<C03PageUi> {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: Center(
-                    child: Text(
-                      'H',
-                      style: GoogleFonts.poppins(
-                        fontWeight: FontWeight.bold,
-                        color: const Color(0xFF00C853),
-                      ),
-                    ),
+                    child: Image(
+                        image: const AssetImage('assets/images/img10.png'),
+                        width: 20,
+                        height: 20),
                   ),
                 ),
               ),
@@ -145,12 +142,11 @@ class _C03PageUiState extends State<C03PageUi> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  _socialButton(FontAwesomeIcons.google, Colors.red),
-                  const SizedBox(width: 15),
-                  _socialButton(
-                      FontAwesomeIcons.facebookF, Colors.blue.shade800),
-                  const SizedBox(width: 15),
-                  _socialButton(FontAwesomeIcons.twitter, Colors.lightBlue),
+                  Image(image: const AssetImage('assets/images/google.png')),
+                  const SizedBox(width: 30),
+                  Image(image: const AssetImage('assets/images/facebook2.png')),
+                  const SizedBox(width: 30),
+                  Image(image: const AssetImage('assets/images/twitter.png')),
                 ],
               ),
               const SizedBox(height: 30),

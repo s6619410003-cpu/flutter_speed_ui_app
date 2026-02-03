@@ -30,14 +30,10 @@ class _C02PageUiState extends State<C02PageUi> {
                   borderRadius: BorderRadius.circular(15),
                 ),
                 child: Center(
-                  child: Text(
-                    'H',
-                    style: GoogleFonts.poppins(
-                      fontSize: 40,
-                      fontWeight: FontWeight.bold,
-                      color: const Color(0xFF00C853), // สีเขียวตามรูป
-                    ),
-                  ),
+                  child: Image(
+                      image: const AssetImage('assets/images/img10.png'),
+                      width: 40,
+                      height: 40),
                 ),
               ),
               const SizedBox(height: 60),
