@@ -56,7 +56,7 @@ class _E01PageUiState extends State<E01PageUi> {
                 child: Text(
                   "A \"Moments of healthy sip\nThe best vitamin for your health",
                   textAlign: TextAlign.center,
-                  style: GoogleFonts.poppins(
+                  style: GoogleFonts.roboto(
                     fontSize: 16,
                     color: Colors.black87,
                     fontWeight: FontWeight.w500,
